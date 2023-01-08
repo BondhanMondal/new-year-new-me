@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.btn-primary{
+
+}
+
+
+/* header CSS  */
+.header{
+    background-image: url('../images/banner/banner3.png');
+    min-height: 100vh;
+
+}
+.banner-container{
+    text-align: right;
+    margin-left: 845px;
+    margin-right: 230px;
+}
+.banner-title{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 65px;
+    padding-top: 216px;
+}
+.banner-description{
+    color: #FFFFFF;
+    font-size: 16px;
+    margin-top: 24px;
+    margin-bottom: 32px;
+
+}
