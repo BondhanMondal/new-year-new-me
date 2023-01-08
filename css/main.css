@@ -84,6 +84,8 @@
 /* My Plan section css  */
 
 .plans-section {
+    max-width: 1140px;
+    margin: 0 auto;
     margin-bottom: 130px;
     display: flex;
     justify-content: space-evenly;
@@ -227,6 +229,12 @@
 .contact-info{
     color: #FFFFFF;
     margin-bottom: 16px;
+}
+.logo-container{
+    margin-top: 16px;
+}
+.logo-container img{
+    margin-right: 30px;
 }
 .footer-right{
     height: 204px;
