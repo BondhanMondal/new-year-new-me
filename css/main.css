@@ -33,7 +33,7 @@
     color: #FFFFFF;
     font-weight: 700;
     font-size: 65px;
-    padding-top: 216px;
+    padding-top: 130px;
 }
 
 .banner-description {
@@ -46,28 +46,67 @@
 
 /* failure section css  */
 
-.failure-section{
+.failure-section {
     display: flex;
     max-width: 1092px;
-    
+
     margin: 0 auto;
     align-items: center;
     margin-top: 130px;
+    margin-bottom: 130px;
 }
-.section-title{
+
+.section-title {
     font-size: 40px;
     font-weight: 700;
     color: #151414;
     margin-bottom: 24px;
 }
-.section-description{
+
+.section-description {
     color: #444343;
     margin-bottom: 16px;
 }
-.section-points{
+
+.section-points {
     margin-bottom: 8px;
     color: #444343;
 }
-.fa-solid{
+
+.fa-solid {
     color: rgb(41, 231, 41);
+}
+
+/* My Plan section css  */
+
+.plans-section {
+    margin-bottom: 130px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.plans {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.plan-image {
+    width: 92px;
+    height: 92px;
+}
+
+.plan-title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+    margin-bottom: 16px;
+}
+
+.plan-description {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
 }
